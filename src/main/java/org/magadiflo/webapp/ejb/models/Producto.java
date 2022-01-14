@@ -1,6 +1,10 @@
 package org.magadiflo.webapp.ejb.models;
 
-public class Producto {
+import java.io.Serializable;
+
+public class Producto implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private String nombre;
 
